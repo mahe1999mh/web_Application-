@@ -6,6 +6,7 @@ import Testimonials from "./pages/testimonials/Testimonials";
 import Works from "./pages/works/Works";
 import Portfolio from "./pages/portfolio/Portfolio";
 import { useState } from "react";
+import Menu from "./pages/menu/Menu";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
       <div className="sections">
         <Into />
