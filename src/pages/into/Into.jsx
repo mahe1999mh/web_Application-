@@ -1,6 +1,8 @@
 import React from "react";
 import "./into.scss";
+
 const Into = () => {
+  
   return (
     <div className="Into" id="intro">
       <div className="left">
@@ -13,7 +15,7 @@ const Into = () => {
           <h2>Hi There,I'm</h2>
           <h1>Mahendra Reddy</h1>
           <h3>
-            Freelance <span>MERN STACK Develope</span>
+            Freelance <span>MERN</span>
           </h3>
         </div>
         <a href="#portfolio">

@@ -18,10 +18,10 @@ function App() {
 
       <div className="sections">
         <Into />
-        <Contact />
+        <Portfolio />
         <Testimonials />
         <Works />
-        <Portfolio />
+        <Contact />
       </div>
     </div>
   );
