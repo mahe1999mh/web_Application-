@@ -64,3 +64,35 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .Into {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4vh;
+    padding-top: 10px;
+  }
+
+  .imgContainer {
+    width: 700px;
+    height: 700px;
+    overflow: hidden;
+    background-color: crimson;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    float: right;
+  }
+  img {
+    padding-bottom: 70px;
+  }
+}

@@ -2,7 +2,6 @@ import React from "react";
 import "./into.scss";
 
 const Into = () => {
-  
   return (
     <div className="Into" id="intro">
       <div className="left">
@@ -18,7 +17,7 @@ const Into = () => {
             Freelance <span>MERN</span>
           </h3>
         </div>
-        <a href="#portfolio">
+        <a href="#portfolio" className="arrow">
           <img src="assets/down.png" alt="" />
         </a>
       </div>
