@@ -95,4 +95,18 @@
   img {
     padding-bottom: 70px;
   }
+
+  .center,
+  .top {
+    overflow: hidden;
+    img {
+      padding: 0;
+    }
+  }
+
+  .item {
+    img {
+      padding: 0;
+    }
+  }
 }
