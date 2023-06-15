@@ -19,9 +19,9 @@ function App() {
       <div className="sections">
         <Into />
         <Portfolio />
-        <Testimonials />
         <Works />
         <Contact />
+        <Testimonials />
       </div>
     </div>
   );
