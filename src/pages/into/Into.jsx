@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import "./into.scss";
 
 const Into = () => {
@@ -14,7 +15,21 @@ const Into = () => {
           <h2>Hi There,I'm</h2>
           <h1>Mahendra Reddy</h1>
           <h3>
-            Freelance <span>MERN</span>
+            Freelance{" "}
+            <span>
+              <Typewriter
+                options={{
+                  strings: [
+                    "Website Design",
+                    "Website Development",
+                    "E-commerce Development",
+                    "Custom Web Application Development",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
           </h3>
         </div>
         <a href="#portfolio" className="arrow">
