@@ -9,7 +9,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           {/* <a href="#intro" className="logo">
             .logo
           </a> */}
-          <img src="websiteSlides/logo.PNG" alt="sd" />
+          <img src="websiteSlides/logo.png" alt="logo" />
           <div className="itemContainer">
             <Person className="icon" />
             <span>+91 9113960265</span>

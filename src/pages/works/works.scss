@@ -77,9 +77,9 @@
           }
           &.user {
             height: 40px;
-            width: 50px;
+            width: 100px;
             border-radius: 50%;
-            object-fit: cover;
+            // object-fit: cover;
             margin: 0 30px;
 
             @include mobile {
@@ -93,7 +93,7 @@
       .center {
         padding: 10px;
         border-radius: 10px;
-        background-color: rgb(250, 244, 245);
+        // background-color: rgb(250, 244, 245);
 
         @include mobile {
           font-size: 12px;
@@ -121,5 +121,46 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials .container .card .top img.user {
+    width: 100px;
+    height: 40px;
+  }
+  .testimonials .container .card .bottom h3 {
+    font-size: 14px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .testimonials .container .card .bottom h5 {
+    font-size: 13px;
+    height: 30px;
+    overflow: hidden;
+  }
+  .testimonials .container .card .top img.left,
+  .testimonials .container .card .top img.right,
+  .testimonials .container .card .top img.user {
+    height: 20px;
+  }
+  .testimonials .container .card {
+    height: 180px;
+    margin: 10px 0;
+    gap: 10px;
+    overflow: hidden;
+  }
+  .testimonials .container .card .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+  }
+  .testimonials .container .card .bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
   }
 }

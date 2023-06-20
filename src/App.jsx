@@ -19,8 +19,8 @@ function App() {
       <div className="sections">
         <Slider slides={slidesData} />;
         <Into />
-        <Portfolio />
         <Works />
+        <Portfolio />
         <Contact />
       </div>
     </div>
