@@ -2,13 +2,12 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import "./into.scss";
 
-
 const Into = () => {
   return (
     <div className="Into" id="intro">
       <div className="left">
         <div className="imgContainer">
-         
+          <img src="websiteSlides/lan.png" alt="" />
         </div>
       </div>
       <div className="right">
