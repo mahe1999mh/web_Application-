@@ -6,9 +6,7 @@ const Into = () => {
   return (
     <div className="Into" id="intro">
       <div className="left">
-        <div className="imgContainer">
-          <img src="websiteSlides/lan.png" alt="" />
-        </div>
+        <img src="websiteSlides/react.png" loading="lazy" alt="" />
       </div>
       <div className="right">
         <div className="wrapper">

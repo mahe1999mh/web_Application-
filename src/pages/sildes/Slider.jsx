@@ -18,7 +18,7 @@ const Slider = ({ slides }) => {
 
   useEffect(() => {
     let slider = setInterval(() => {
-      if (currentIndex < slides.length - 2) {
+      if (currentIndex < slides.length - 1) {
         setCurrentIndex(currentIndex + 1);
         setTranslateValue(-(currentIndex + 1) * 34);
       } else {

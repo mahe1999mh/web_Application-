@@ -1,20 +1,20 @@
 export const slidesData = [
   {
     id: "001",
-    img: "https://hongo.b-cdn.net/wp-content/uploads/2019/11/home-page-fashion-slider-01.jpg",
-    title: "Finde Premium Products",
-    cta: "SHOP NOW",
+    img: "websiteSlides/web6.jpg",
+    title: "Design. Create. Impress",
+    cta: "Website Design",
   },
   {
     id: "002",
-    img: "https://cdn.shopify.com/s/files/1/0130/5041/3114/files/home1_02_4c388999-0b9a-4a73-9fe7-1ca465ec8140_x1024.png",
-    title: "Get all the Accessories you need",
-    cta: "SHOP NOW",
+    img: "websiteSlides/web7.jpg",
+    title: "Simplify. Innovate. Deliver",
+    cta: "Web App Development",
   },
   {
     id: "003",
-    img: "https://hongo.b-cdn.net/wp-content/uploads/2019/11/home-page-fashion-slider-01.jpg",
-    title: "Wide  range of colors",
-    cta: "SHOP NOW",
+    img: "websiteSlides/web8.jpg",
+    title: "Accelerate Your Growth",
+    cta: "Digital Marketing",
   },
 ];
