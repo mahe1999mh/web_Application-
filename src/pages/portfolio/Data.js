@@ -59,8 +59,8 @@ export const webPortfolio = [
   },
   {
     id: 6,
-    title: "Web Banking App",
-    img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
+    title: "Design Social Media App",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
   },
 ];
 

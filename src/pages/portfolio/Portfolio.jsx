@@ -22,8 +22,8 @@ export default function Portfolio() {
       title: "Web App",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "Digital Marketing",
+      title: "Digital Marketing",
     },
   ];
 

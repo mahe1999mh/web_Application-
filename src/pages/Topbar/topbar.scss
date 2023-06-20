@@ -20,6 +20,10 @@
       display: flex;
       align-items: center;
 
+      img {
+        height: 50px;
+      }
+
       .logo {
         font-size: 40px;
         font-weight: 700;
@@ -33,7 +37,7 @@
         align-items: center;
         margin-left: 30px;
 
-        @include mobile{
+        @include mobile {
           display: none;
         }
 
