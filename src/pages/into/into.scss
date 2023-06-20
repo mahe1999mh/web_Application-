@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
 .Into {
   background-color: rgb(255, 255, 255);
   display: flex;
-
+  font-family: Courgette;
   .left {
     flex: 0.5;
     overflow: hidden;

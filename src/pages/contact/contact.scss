@@ -1,9 +1,11 @@
 @import "../global.scss";
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 .contact {
   background-color: #f2f2f2;
   display: flex;
-
+  font-family: Courgette;
   @include mobile {
     flex-direction: column;
   }
