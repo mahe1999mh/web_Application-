@@ -1,4 +1,5 @@
 @import "../global.scss";
+@import url("https://fonts.googleapis.com/css2?family=David+Libre:wght@700&display=swap");
 
 .topbar {
   width: 100%;
@@ -9,6 +10,7 @@
   top: 0;
   z-index: 3;
   transition: all 1s ease;
+  overflow: hidden;
 
   .wrapper {
     padding: 10px 30px;
@@ -30,6 +32,7 @@
         text-decoration: none;
         color: inherit;
         margin-right: 40px;
+        font-family: "David Libre", serif;
       }
 
       .itemContainer {
@@ -60,6 +63,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        overflow: hidden;
         cursor: pointer;
 
         span {

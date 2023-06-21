@@ -6,10 +6,10 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          {/* <a href="#intro" className="logo">
-            .logo
-          </a> */}
-          <img src="websiteSlides/logo.png" alt="logo" />
+          <a href="#intro" className="logo">
+            Webcraft
+          </a>
+          {/* <img src="websiteSlides/logo.png" className="logo" alt="logo" /> */}
           <div className="itemContainer">
             <Person className="icon" />
             <span>+91 9113960265</span>

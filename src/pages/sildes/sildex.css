@@ -33,6 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: cover;
 }
 
 .slide .slide_content button {
@@ -61,6 +62,7 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    z-index: 0;
 }
 
 .dots_wrapper .dot {
